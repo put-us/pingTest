@@ -22,7 +22,7 @@ pingTest <IP File name> <Flag>
 			: 2 for UP hosts 
 			: 3 All hosts""" 
 # create the logging file handler
-fh = logging.FileHandler("new_snake.log")
+fh = logging.FileHandler("pingTest.log")
 fs=logging.StreamHandler() 
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(name)s - %(message)s')
 fh.setFormatter(formatter)
