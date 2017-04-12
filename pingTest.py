@@ -1,5 +1,5 @@
 #Developed by Puneet Tyagi 4/12/2017
-#v1
+#v.01
 # Reads host ip's or hostnames from a file and ping them to give a basix status.
 import subprocess as sp #import check_output
 import sys,time
